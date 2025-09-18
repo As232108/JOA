@@ -1,0 +1,17 @@
+import { Routes, Route } from "react-router-dom";
+import Games from "./components/Games";
+import Home from "./components/Homes";
+import Layout from "./components/Layout";
+
+
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout></Layout>}>
+        <Route index element={<Home></Home>} />
+        <Route path="/games" element={<Games />} />
+      </Route>
+    </Routes>
+  );
+}
