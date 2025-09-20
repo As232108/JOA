@@ -7,10 +7,11 @@ export default function Footer() {
             {/* Logo */}
             <div className="flex justify-center md:justify-start">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympic_rings_without_rims.svg"
-                alt="Olympics Logo"
-                className="h-12"
-              />
+  src="https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758389671/Sonbhadra_Badminton_mq5j9l.png"
+  alt="Olympics Logo"
+  className="h-8 scale-225"
+/>
+
             </div>
   
             {/* Olympic Games */}

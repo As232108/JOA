@@ -6,24 +6,25 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "#" },
-    { name: "Organisation", href: "#" },
+    { name: "Organisation", href: "/originization" },
     { name: "SOA", href: "#" },
     { name: "Constituion", href: "#" },
     { name: "Report", href: "#" },
-    { name: "State Sport Association", href: "#" },
-    { name: "Distric olympic Association", href: "#" }
+    { name: "Distric Sport Association", href: "#" },
+    { name: "Associate Distric  Association", href: "#" }
   ];
 
   return (
-    <header className="w-full shadow-md bg-white">
+    <header className="w-full shadow-md bg-black">
       <div className="container mx-auto flex justify-between items-center px-4 py-3">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympic_rings_without_rims.svg"
-            alt="Olympics Logo"
-            className="h-8"
-          />
+         <img
+  src="https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758389671/Sonbhadra_Badminton_mq5j9l.png"
+  alt="Olympics Logo"
+  className="h-8 scale-125"
+/>
+
         </div>
 
         {/* Desktop Menu */}
@@ -32,7 +33,7 @@ export default function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-gray-800 hover:text-blue-600 transition"
+              className="text-white hover:text-blue-600 transition"
             >
               {link.name}
             </a>
