@@ -15,9 +15,10 @@ export default function Home() {
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Welcome to the Jharkhand Olympic Games.
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 text-white shadow-2xl shadow-black text-center">
+  Welcome Sonbhadra District Olympic Association
+</h1>
+
           <p className="text-lg md:text-xl max-w-2xl mx-auto">
             Celebrating sportsmanship, unity, and the spirit of competition.
           </p>
