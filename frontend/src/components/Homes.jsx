@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center justify-center bg-black">
         <img
-          src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d"
+          src="https://res.cloudinary.com/dwd6bd0zy/image/upload/v1759599112/1000_F_449549602_uGB3dZlwVA5nYzPOC9zsnZk6aEnVWU3L_qg72go.jpg"
           alt="Olympics Banner"
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />

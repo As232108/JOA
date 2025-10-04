@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="bg-black text-gray-300 pt-10">
+      <footer className="shadow-md bg-gradient-to-r from-[#256479] to-[#051831] text-gray-300 pt-10">
         <div className="container mx-auto px-6">
           {/* Top Section */}
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">

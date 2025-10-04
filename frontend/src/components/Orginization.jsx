@@ -4,7 +4,37 @@ const Orginization = () => {
   const members = [
     {
       name: "RK Anand",
+      role: "Chief Patron",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "MK Pathak",
+      role: "Patron",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "Shivendra Nath Dubey",
+      role: "Chairman",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "RK Anand",
       role: "President",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "MK Pathak",
+      role: "Sr. Vice President",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "Shivendra Nath Dubey",
+      role: "Vice President",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "RK Anand",
+      role: "Secretary",
       img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
     },
     {
@@ -17,13 +47,29 @@ const Orginization = () => {
       role: "Treasurer",
       img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
     },
+    {
+      name: "RK Anand",
+      role: "CA CUM Auditor ",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "MK Pathak",
+      role: "Media Incharge",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    {
+      name: "Shivendra Nath Dubey",
+      role: "Executive Member",
+      img: "https://res.cloudinary.com/dwd6bd0zy/image/upload/v1758388901/RKANAND_nsbllg.jpg",
+    },
+    
   ];
 
   return (
 
     <>
     
-     <div className="flex items-center justify-center bg-gray-50 ">
+     <div className="flex items-center justify-center bg-gray-50 pb-10 ">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
           Our Organization
